@@ -53,7 +53,7 @@ export const GITHUB_URLS = [
   "index.docker.io",
   "k8s.gcr.io",
   "gcr.io",
-  "ghcr.io"
+  "ghcr.io",
   "quay.io",
   "huggingface.co",
   "www.huggingface.co",

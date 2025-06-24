@@ -42,6 +42,22 @@ export const GITHUB_URLS = [
   "user-images.githubusercontent.com",
   "vscode.dev",
   "private-user-images.githubusercontent.com",
+  "api.themoviedb.org",
+  "image.tmdb.org",
+  "tmdb.org",
+  "www.themoviedb.org",
+  "opensubtitles.org",
+  "www.opensubtitles.org",
+  "hub.docker.com",
+  "registry.hub.docker.com",
+  "index.docker.io",
+  "k8s.gcr.io",
+  "gcr.io",
+  "ghcr.io"
+  "quay.io",
+  "huggingface.co",
+  "www.huggingface.co",
+  "cdn-lfs.huggingface.co",
 ]
 
 export const HOSTS_TEMPLATE = `# github hosts

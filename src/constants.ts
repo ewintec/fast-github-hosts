@@ -78,14 +78,14 @@ export const DNS_PROVIDERS = [
     headers: { Accept: "application/dns-json" },
     name: "TWQuad101 DNS",
   },  
-  {
-    url: (domain: string) => `https://1.1.1.1/dns-query?name=${domain}&type=A`,
-    headers: { Accept: "application/dns-json" },
-    name: "Cloudflare DNS",
-  },
-  {
-    url: (domain: string) => `https://dns.google/resolve?name=${domain}&type=A`,
-    headers: { Accept: "application/dns-json" },
-    name: "Google DNS",
-  },
+ //{
+ //  url: (domain: string) => `https://1.1.1.1/dns-query?name=${domain}&type=A`,
+ //   headers: { Accept: "application/dns-json" },
+ //   name: "Cloudflare DNS",
+ // },
+ // {
+ //   url: (domain: string) => `https://dns.google/resolve?name=${domain}&type=A`,
+ //   headers: { Accept: "application/dns-json" },
+ //   name: "Google DNS",
+ // },
 ]

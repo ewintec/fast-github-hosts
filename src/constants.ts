@@ -79,7 +79,7 @@ export const DNS_PROVIDERS = [
     name: "TWQuad101 DNS",
   },
   {
-    url: (domain: string) => `dns.alidns.com/resolve?name=${domain}&type=1`,
+    url: (domain: string) => ``https://dns.alidns.com/resolve?name=${domain}&type=1`,
     headers: { Accept: "application/dns-json" },
     name: "alidns",
   },   
